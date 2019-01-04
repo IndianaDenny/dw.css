@@ -1,0 +1,111 @@
+/* dw.sass
+    this file was created by denny.wygant@vdenny.com
+ */
+@import url("https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Muli|Open+Sans|Special+Elite|Ubuntu");
+@import url("https://fonts.googleapis.com/css?family=Charm|EB+Garamond|Lora|Mukta|Passion+One|Poppins|Source+Code+Pro");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+/* 
+font-family: 'Source Code Pro',  monospace;
+
+font-family: 'Charm', cursive;
+
+font-family: 'Passion One',cursive;
+
+font-family: 'Poppins', sans-serif;
+
+font-family: 'Mukta',sans-serif;
+
+font-family: 'Lora',serif;
+
+font-family: 'EB Garamond', serif; 
+
+font-family: 'Muli', sans-serif;
+
+font-family: 'Ubuntu', sans-serif;
+
+font-family: 'Special Elite',cursive;
+
+font-family: 'Gloria Hallelujah',cursive;
+
+font-family: 'Open Sans',sans-serif;
+
+font-family: 'Roboto',sans-serif;
+
+*/
+:root {
+  --dw-black: rgb(3, 3, 3);
+  --dw-white: rgb(250, 250, 250);
+  --dw-green: rgb(72, 255, 55);
+  --dw-blue: rgb(0, 11, 172);
+  --dw-yellow: rgb(185, 255, 0);
+  --dw-pink: rgb(255, 0, 212);
+  --dw-red: rgb(255, 4, 9);
+  --dw-cherry: rgb(132, 0, 7);
+  --dw-banana: rgb(192, 189, 37);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.dw-table {
+  display: table;
+}
+
+.dw-table-cell {
+  display: table-cell;
+}
+
+.dw-table-col {
+  display: table-column;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.zoom-in {
+  cursor: zoom-in;
+}
+
+.dw-black {
+  color: var(--dw-black);
+}
+
+.dw-white {
+  color: var(--dw-white);
+}
+
+.dw-green {
+  color: var(--dw-green);
+}
+
+.dw-blue {
+  color: var(--dw-blue);
+}
+
+.dw-yellow {
+  color: var(--dw-yellow);
+}
+
+.dw-pink {
+  color: var(--dw-pink);
+}
+
+.dw-red {
+  color: var(--dw-red);
+}
+
+.dw-cherry {
+  color: var(--dw-cherry);
+}
+
+.dw-banana {
+  color: var(--dw-banana);
+}
